@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #C1D0B5;
+}
+
+.container {
+    font-size: 16px;
+    background-color: white;
+    width: 90vh;
+    max-width: 34em;
+    position: absolute;
+    transform: translate(60%, 90%);
+    /*top: 50%;
+    left: 50%;*/
+    padding: 3em;
+    border-radius: 20px;
+    box-shadow: 0 1.2em 2.4em rgba(0, 0, 0, 0.25);
+}
